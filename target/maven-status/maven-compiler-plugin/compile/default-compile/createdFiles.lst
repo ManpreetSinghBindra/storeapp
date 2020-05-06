@@ -1,0 +1,6 @@
+com\mphasis\service\IProductService.class
+com\mphasis\service\ProductService.class
+com\mphasis\domain\Product.class
+com\mphasis\controller\ProductRestController.class
+com\mphasis\repository\ProductRepository.class
+com\mphasis\StoreappApplication.class
