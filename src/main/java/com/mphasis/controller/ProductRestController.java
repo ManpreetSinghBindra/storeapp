@@ -19,6 +19,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.mphasis.domain.Product;
 import com.mphasis.service.IProductService;
 
+// Product Restful WebServices
+
 @RestController
 @Scope("request")
 public class ProductRestController {
