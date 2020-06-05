@@ -15,6 +15,8 @@ public class StoreappApplication implements CommandLineRunner{
 	public static void main(String[] args) {
 		SpringApplication.run(StoreappApplication.class, args);
 	}
+	
+	
 
 	@Autowired
 	@Qualifier("productRepository")
@@ -23,7 +25,7 @@ public class StoreappApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 	
-		productRepository.save(new Product("LG", 43534.0));
+		productRepository.save(new Product("LG", 45534.0));
 		productRepository.save(new Product("Samung", 34534.0));
 		productRepository.save(new Product("Sony", 44534.0));
 		productRepository.save(new Product("Dell", 33534.0));
